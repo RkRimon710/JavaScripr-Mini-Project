@@ -1,0 +1,32 @@
+body{
+    background: #edeaff;
+}.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)), url(Image/Beach-Destinations-in-Asia.jpg);
+    background-size: 700px;
+    text-align: center;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.button img{
+    width: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+.stopwatch h1{
+    margin-top: 10px;
+    font-size: 64px;
+    font-weight: 300;
+}.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button img:nth-child(2){
+    width: 80px;
+}.displayTime{
+    margin-top: 40px;
+    padding-top: 40px;
+}
